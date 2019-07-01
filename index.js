@@ -36,7 +36,7 @@ function styleShoes() {
 }
 
 function createShoes() {
-  if(document.getElementsByClassName('shoe').length > 8) {
+  if(document.getElementsByClassName('shoe').length > 2) {
     clearInterval(placeShoes)
     styleShoes()
   } else {
